@@ -20,7 +20,7 @@ public class HelloWorld {
 
                 break;
             }
-            else{
+            else {
                 System.out.println("Aby wyjść z aplikacji wpisz exit i naciśnij klawisz enter");
             }
         }
