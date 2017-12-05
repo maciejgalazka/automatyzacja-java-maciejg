@@ -29,6 +29,7 @@ public class WordPressAddCommentTest extends BaseTest{
 
         Comment comment = new Comment();
         Comment reply = Comment.reply();
+
         WordPressMainPage mainPage = new WordPressMainPage(driver);
         mainPage.open();
         WordPressCommentPage commentPage = mainPage.goToFirstCommentPage();
