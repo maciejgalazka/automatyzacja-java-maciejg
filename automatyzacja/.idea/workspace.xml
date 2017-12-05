@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d894104-cc25-46e5-b185-85fe40980708" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" afterPath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterPath="$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automatyzacja.iml" afterPath="$PROJECT_DIR$/automatyzacja.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/tests/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="170">
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/GooglePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,8 +60,20 @@
       <file leaf-file-name="GoogleSearchTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/tests/GoogleSearchTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="476">
+              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,7 +94,7 @@
       <file leaf-file-name="GoogleMainPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/GoogleMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="459">
               <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -91,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleResultPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoogleResultPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/GoogleResultPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="70">
+              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#446#447#0" expanded="true" />
@@ -108,7 +120,7 @@
       <file leaf-file-name="SeleniumTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/selenium/SeleniumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="255">
               <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -151,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/tests/GoogleSearchTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/pages/GoogleResultPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/pages/GoogleMainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -186,8 +199,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,46 +238,12 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="automatyzacja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automatyzacja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automatyzacja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automatyzacja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automatyzacja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automatyzacja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automatyzacja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automatyzacja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,6 +256,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="calculator" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -305,8 +286,8 @@
       <module name="automatyzacja" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -325,8 +306,8 @@
       <module name="automatyzacja" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
       <option name="METHOD_NAME" value="divide" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -571,22 +552,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -597,8 +577,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -613,54 +593,86 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/tests/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/GooglePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/tests/GoogleSearchTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/domain/CodeSprinters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/GoogleMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/SeleniumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/GoogleResultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <marker date="1512405992774" expanded="true" signature="61986:62003" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="61986:62021" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="61986:62034" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="61986:62049" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="52704:52785" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62084:64581" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62097:64566" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62151:62446" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62170:62431" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62233:62411" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62273:62377" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62294:62355" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62496:62823" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62515:62808" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62610:62788" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62650:62754" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62671:62732" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62874:63139" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62893:63124" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62926:63104" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62966:63070" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62987:63048" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63182:63488" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63201:63473" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63275:63453" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63315:63419" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63336:63397" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63539:63894" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63558:63879" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63642:63859" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63682:63825" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63703:63803" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63929:64235" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63948:64220" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64022:64200" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64062:64166" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64083:64144" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64287:64552" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64306:64537" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64339:64517" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64379:64483" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64400:64461" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,50 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <marker date="1512405992774" expanded="true" signature="61986:62003" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="61986:62021" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="61986:62034" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="61986:62049" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="52704:52785" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62084:64581" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62097:64566" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62151:62446" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62170:62431" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62233:62411" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62273:62377" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62294:62355" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62496:62823" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62515:62808" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62610:62788" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62650:62754" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62671:62732" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62874:63139" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62893:63124" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62926:63104" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62966:63070" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62987:63048" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63182:63488" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63201:63473" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63275:63453" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63315:63419" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63336:63397" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63539:63894" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63558:63879" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63642:63859" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63682:63825" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63703:63803" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63929:64235" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63948:64220" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64022:64200" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64062:64166" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64083:64144" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64287:64552" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64306:64537" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64339:64517" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64379:64483" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64400:64461" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,7 +748,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/calculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
@@ -788,12 +756,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -827,7 +795,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/calculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
@@ -835,12 +803,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -849,50 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68">
           <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding>
-            <marker date="1512405992774" expanded="true" signature="61986:62003" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="61986:62021" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="61986:62034" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="61986:62049" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="52704:52785" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62084:64581" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62097:64566" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62151:62446" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62170:62431" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62233:62411" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62273:62377" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62294:62355" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62496:62823" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62515:62808" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62610:62788" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62650:62754" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62671:62732" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62874:63139" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62893:63124" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62926:63104" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62966:63070" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="62987:63048" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63182:63488" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63201:63473" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63275:63453" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63315:63419" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63336:63397" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63539:63894" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63558:63879" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63642:63859" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63682:63825" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63703:63803" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63929:64235" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="63948:64220" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64022:64200" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64062:64166" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64083:64144" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64287:64552" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64306:64537" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64339:64517" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64379:64483" ph="..." />
-            <marker date="1512405992774" expanded="true" signature="64400:64461" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -917,7 +841,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/calculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
@@ -925,21 +849,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar!/org/openqa/selenium/support/events/EventFiringWebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1374">
           <caret line="132" column="33" lean-forward="false" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,13 +860,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/SeleniumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="255">
           <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -977,18 +889,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/tests/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/GooglePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/tests/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/GoogleResultPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="70">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/GoogleMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -997,32 +931,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/tests/GoogleSearchTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="476">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/GoogleMainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="306">
+          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/GoogleResultPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
           </folding>
         </state>
       </provider>

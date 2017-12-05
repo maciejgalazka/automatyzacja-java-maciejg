@@ -1,9 +1,11 @@
+package calculator;
+
 public class Calculator {
   //  private static final double POSITIVE_INFINITY=0;
 
 //  //  private int b;
 
-   // public Calculator(int a, int b) {
+   // public calculator.Calculator(int a, int b) {
   //      this.a = a;
  //       this.b = b;
 //
