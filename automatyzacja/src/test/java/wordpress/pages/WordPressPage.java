@@ -1,6 +1,7 @@
 package wordpress.pages;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public abstract class WordPressPage {
 
@@ -11,5 +12,15 @@ public abstract class WordPressPage {
         this.driver=driver;
 
     }
+//protected aby mozna dziedzicyc po tym
+    protected void writeInto(String text, WebElement webElement) {
+        webElement.click();
+        webElement.clear();
+        webElement.sendKeys(text);
+    }
 
+    protected void waitUntilElementIsClickable(WebElement webElement){
+
+
+    }
 }
