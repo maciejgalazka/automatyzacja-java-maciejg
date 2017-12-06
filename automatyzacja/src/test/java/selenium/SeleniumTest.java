@@ -25,7 +25,7 @@ public class SeleniumTest {
     public void initializeBrowser(){
 
         //zamiast poniższego lepiej trzymać ścieżkę w zmiennej systemowej path
-        System.setProperty("webdriver.chrome.driver","c:\\WebDrivers\\chromedriver.exe");
+       // System.setProperty("webdriver.chrome.driver","c:\\WebDrivers\\chromedriver.exe");
        //System.setProperty("webdriver.gecko.driver","c:\\WebDrivers\\geckodriver.exe");
 
 
